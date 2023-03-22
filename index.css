@@ -1,0 +1,41 @@
+table#tabela{
+    border: 2px solid darkblue;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    padding: 5px;
+}
+
+td{
+    border: 1px dashed gray;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+th{
+    border: 1px solid darkblue;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(61, 184, 255);
+}
+
+tbody tr:nth-of-type(3n+1){
+    background-color: rgba(0, 81, 128, 0.329);
+}
+
+tbody tr:nth-of-type(3n+2){
+    background-color: rgb(219, 238, 250);
+}
+
+tbody tr:nth-of-type(3n+3){
+    background-color: whitesmoke;
+}
+
+body{
+    background-color: rgba(143, 155, 188, 0.301);
+}
+
+h1{
+    color: darkblue;
+}
