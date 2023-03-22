@@ -3,6 +3,11 @@ table#tabela{
     border-collapse: collapse;
     border-spacing: 0px;
     padding: 5px;
+    margin: auto;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
 }
 
 td{
